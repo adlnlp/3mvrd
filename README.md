@@ -4,6 +4,7 @@ This paper presents a groundbreaking multimodal, multi-task, multi-teacher joint
 #### <div align="center"> Yihao Ding, Lorenzo Vaiani, Soyeon Caren Han, Jean Lee, Paolo Garza, Josiah Poon, Luca Cagliero </div>
 #### <div align="center"> Accepted by Findings of the Association for Computational Linguistics (ACL 2024) </div>
 ## 3MVRD Model Architectures
+<p align="center"><img src="figures/mmm_architecture.png" width="750" /></p>
 
 ## Datasets
 
