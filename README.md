@@ -3,10 +3,9 @@ This paper presents a groundbreaking multimodal, multi-task, multi-teacher joint
 
 #### <div align="center"> Yihao Ding, Lorenzo Vaiani, Soyeon Caren Han, Jean Lee, Paolo Garza, Josiah Poon, Luca Cagliero </div>
 #### <div align="center"> Accepted by Findings of the Association for Computational Linguistics (ACL 2024) </div>
-## 3MVRD Model Architectures
+## Methodology
 <p align="center"><img src="figures/mmm_architecture.png" width="750" /></p>
 
-## Methodology
 Our paper interprets visually rich documents, especially form documents collaboratively created and used by multiple parties. We employ two tiers of multimodal information: fine-grained and coarse-grained levels, crucial for understanding the structure and content of form pages. Existing pre-trained visual-language models often focus on one of these aspects. Our approach integrates knowledge from diverse models to enhance document understanding for downstream tasks.
 
 ### Multimodal Multi-task Multi-teacher Joint-grained Document Understanding (Model Architecture)
