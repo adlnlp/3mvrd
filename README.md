@@ -9,16 +9,7 @@ This paper presents a groundbreaking multimodal, multi-task, multi-teacher joint
 ## Methodology
 Our paper interprets visually rich documents, especially form documents collaboratively created and used by multiple parties. We employ two tiers of multimodal information: fine-grained and coarse-grained levels, crucial for understanding the structure and content of form pages. Existing pre-trained visual-language models often focus on one of these aspects. Our approach integrates knowledge from diverse models to enhance document understanding for downstream tasks.
 
-### Preliminary Definitions
-Before detailing our approach, we define key terms used throughout this paper.
-
-#### Fine-grained Document Understanding
-Involves frameworks that provide detailed insights to understand document content, particularly for token-level tasks like span-based information extraction and question answering. However, these frameworks may struggle with complex multimodal components.
-
-#### Coarse-grained Document Understanding
-Focuses on understanding the logical relations and layout structures within documents, suitable for tasks like document component entity parsing. These models might overlook detailed information and require preliminary entity-level annotations.
-
-### Multimodal Multi-task Multi-teacher Joint-grained Document Understanding
+### Multimodal Multi-task Multi-teacher Joint-grained Document Understanding (Model Architecture)
 We introduce a framework, $\mathcal{F}_{jg}$, designed to harness pre-trained knowledge from both fine-grained and coarse-grained levels, integrating insights from multiple pre-trained backbones. This unified approach aims to enhance the effectiveness of form understanding tasks.
 
 #### Multimodal Multi-task Multi-Teacher
